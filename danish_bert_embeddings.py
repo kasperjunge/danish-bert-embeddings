@@ -78,7 +78,7 @@ class BertEmbeddingsDK():
         self.tokenizer = BertTokenizer(vocab_file=self.bert_path+'vocab.txt')
         self.model = BertModel(config=self.config).from_pretrained(self.bert_path)
         self.model.eval()
-        print('Ready for embedding!')
+        print('Ready for creating awesome embeddings!')
     
     def _convert_to_pytorch(self):
         print('Converting model to PyTorch..')
@@ -96,19 +96,28 @@ class BertEmbeddingsDK():
         os.system('rm -rf __MACOSX')
         return None
     
-    def _embedding_method(self):
-        # bla bla sum + avg last x layers
-        return None
+    def _embedding_method(self, x):
+        
+        x = x[-4:,:,:] # pick last four layers
+        x = x.sum(1) # sum token dimension 
+        x = x.mean(0) # average layer dimension
+
+        return x
     
-    def embed(self, text, print_num_tokens=False):
+    def embed(self, text, output_numpy=True):
         
         tokenized = self.tokenizer(text, return_tensors='pt')
-        if print_num_tokens: print(tokenized['input_ids'].shape)
         with torch.no_grad():
             output = self.model(**tokenized, output_hidden_states=True)
         
         hidden_states = torch.cat(output[2])
-        hidden_states = hidden_states.permute(1,0,2) # re-arrange dimensions: [token, layer, embedding_dim]
+        embeddding = self._embedding_method(hidden_states)
         
-        return hidden_states
+        if output_numpy:
+            embeddding = embeddding.numpy()
+        
+        embeddding = embeddding.reshape(1,-1)
+        
+        return embeddding
+        
         
