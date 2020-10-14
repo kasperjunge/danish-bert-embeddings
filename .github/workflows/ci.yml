@@ -1,4 +1,4 @@
-name: build-and-upload-model
+name: Build and upload model
 
 on: [push]
 
