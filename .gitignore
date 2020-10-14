@@ -1,3 +1,7 @@
-./venv
-./bert-base-danish
-./ipynb_checkpoints
+bert-base-danish
+
+.ipynb_checkpoints
+.pytest_cache
+__pycache__
+.eggs
+*.egg-info

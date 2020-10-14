@@ -3,7 +3,7 @@ import requests
 import torch
 from transformers import BertConfig, BertTokenizer, BertModel
 
-class BertEmbeddingsDK():
+class Embeddings():
     """Class for creating Danish BERT word and sentence on the fly.
         
         Some more extensive description
