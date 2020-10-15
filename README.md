@@ -1,4 +1,9 @@
-# BERT Embeddings to boost your Danish NLP Game!
+# Danish BERT embeddings made easy
 Package for making danish word+sentence embeddings with BERT 📜
 
-```print('hej')```
+```from danish_bert_embeddings import BertEmbeddingsDK
+bert = BertEmbeddingsDK()
+bert.embed('sætning eller ord som du gerne vil have embedded')```
+
+
+
