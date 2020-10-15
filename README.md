@@ -10,7 +10,7 @@ pip install danish-bert-embeddings
 ```
 ## How to use it?
 ```
-from danish_bert_embeddings import BertEmbeddingsDK 
+from danish_bert_embeddings.danish_bert_embeddings import BertEmbeddingsDK 
 
 bert = BertEmbeddingsDK()
 
@@ -19,6 +19,7 @@ embedding = bert.embed('sætning eller ord som du gerne vil have embedded')
 ### Thanks to
 - Lars Kjeldgaard (GitHub: smaakage85) for helping me package the project and publish it on PyPi.
 - Jens Dahl Møllerhøj (GitHub: mollerhoj) og BotXo for pre-training a danish version of BERT.
-
+<br>
+Still a lot to be done on this project, but we're getting there! Feel free to contact me if you want to contribute to the project :)
 
 
