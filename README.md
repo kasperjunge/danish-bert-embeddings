@@ -10,8 +10,10 @@ pip install danish-bert-embeddings
 ```
 ## How to use it?
 ```
-from danish_bert_embeddings import BertEmbeddingsDK # it sounds like a website, need to find another name for that one 😂
+from danish_bert_embeddings import BertEmbeddingsDK 
+
 bert = BertEmbeddingsDK()
+
 embedding = bert.embed('sætning eller ord som du gerne vil have embedded')
 ```
 ### Thanks to
