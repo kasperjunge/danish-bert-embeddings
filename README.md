@@ -1,5 +1,5 @@
 # Danish BERT Embeddings
-![danish-bert-embeddings](https://user-images.githubusercontent.com/39537120/96163240-f1c8cd80-0f19-11eb-8bb5-ab1e9f467060.jpg)
+<img src="https://user-images.githubusercontent.com/39537120/96163240-f1c8cd80-0f19-11eb-8bb5-ab1e9f467060.jpg" width="350">
 
 Package for making danish word+sentence embeddings with BERT 📜
 
