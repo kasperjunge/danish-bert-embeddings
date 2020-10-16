@@ -1,5 +1,5 @@
 # Danish BERT Embeddings
-<img align='right' src="https://user-images.githubusercontent.com/39537120/96163240-f1c8cd80-0f19-11eb-8bb5-ab1e9f467060.jpg" width="450"><br>
+<img align='right' src="https://user-images.githubusercontent.com/39537120/96163240-f1c8cd80-0f19-11eb-8bb5-ab1e9f467060.jpg" width="500"><br>
 Tired of not having any Danish BERT embeddings? Well, you came to the right place! <br><br>
 This is a package for making danish word/sentence embeddings for your very own NLP project, with BERT! 
 See how to get started below ⬇️<br><br>
