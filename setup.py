@@ -12,8 +12,7 @@ setuptools.setup(
     url="https://github.com/KasperJuunge/danish-bert-embeddings",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    packages=setuptools.find_packages(where='src'),
-    package_dir={'': 'src'},
+    packages=setuptools.find_packages(),
     python_requires='>=3.6',
     install_requires=[
         'transformers',
