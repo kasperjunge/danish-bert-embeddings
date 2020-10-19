@@ -17,7 +17,7 @@ bert = BertEmbeddingsDK()
 embedding = bert.embed('sætning eller ord som du gerne vil have embedded')
 ```
 ### Thanks to
-- Lars Kjeldgaard (GitHub: smaakage85) for helping me package the project and publish it on PyPi.
+- Lars Kjeldgaard (GitHub: smaakage85) for helping me packaging the project and publish it on PyPi.
 - Jens Dahl Møllerhøj (GitHub: mollerhoj) og BotXo for pre-training a danish version of BERT.
 <br>
 
