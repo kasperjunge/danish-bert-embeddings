@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="danish-bert-embeddings", 
-    version="0.0.3",
+    version="0.0.4",
     author="Kasper Junge",
     author_email="kasperjuunge@gmail.com",
     description="A package to create danish word/sentence embeddings with BERT.",

@@ -3,7 +3,7 @@ import requests
 import torch
 from transformers import BertConfig, BertTokenizer, BertModel
 
-class Embeddings():
+class Embedder():
     """Class for creating Danish BERT word and sentence on the fly.
         
         Some more extensive description
@@ -39,7 +39,7 @@ class Embeddings():
             self.bert_path = './bert-base-danish/'
         else: 
             self.bert_path = bert_path
-            self._load_model()
+            #self._load_model()
     
         # Check model
         pt_check, tf_check = self._check_model_files()
