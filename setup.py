@@ -9,7 +9,7 @@ setuptools.setup(
     author="Kasper Junge",
     author_email="kasperjuunge@gmail.com",
     description="A package to create danish word/sentence embeddings with BERT.",
-    url="https://github.com/KasperJuunge/danish-bert-embeddings",
+    url="https://pypi.org/project/danish-bert-embeddings/",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),
