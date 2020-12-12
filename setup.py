@@ -16,9 +16,7 @@ setuptools.setup(
     python_requires='>=3.6',
     install_requires=[
         'transformers',
-        'requests',
-        'torch',
-        'sentencepiece'
+        'torch'
     ],
     setup_requires=['pytest-runner'],
     tests_require=['pytest'],
