@@ -4,7 +4,7 @@ Tired of not having any Danish BERT embeddings? Well, you came to the right plac
 This is a package for making danish word/sentence embeddings for your very own NLP project, with BERT! 
 See how to get started below ⬇️<br><br>
 
-## How to install (currently not working, to be continued)?
+## How to install 
 ```
 pip install danish-bert-embeddings
 ```
