@@ -17,7 +17,8 @@ embedding = embedder.embed('En mega fed embedding.')
 ```
 ### Thanks to
 - Lars Kjeldgaard (GitHub: smaakage85) for helping me packaging the project and publish it on PyPi.
-- Jens Dahl Møllerhøj (GitHub: mollerhoj) og BotXo for pre-training a danish version of BERT.
+- Jens Dahl Møllerhøj (GitHub: mollerhoj) and BotXo for pre-training a danish version of BERT.
+- Malte Højmark-Bertelsen for uploading danish bert from BotXo to Huggingface https://huggingface.co/Maltehb/danish-bert-botxo
 <br>
 
 
