@@ -5,11 +5,11 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="danish-bert-embeddings", 
-    version="0.0.4",
+    version="0.0.8",
     author="Kasper Junge",
     author_email="kasperjuunge@gmail.com",
     description="A package to create danish word/sentence embeddings with BERT.",
-    url="https://pypi.org/project/danish-bert-embeddings/",
+    url="https://github.com/KasperJuunge/danish-bert-embeddings",
     long_description=long_description,
     long_description_content_type="text/markdown",
     packages=setuptools.find_packages(),

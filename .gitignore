@@ -4,6 +4,8 @@ __pycache__
 .eggs
 *.egg-info
 
+dev.ipynb
+
 build
 danish_bert_embeddings.egg-info
 dist
