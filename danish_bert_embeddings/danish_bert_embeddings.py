@@ -28,7 +28,7 @@ class DanishBertEmbeddings():
         """
 
         # tokenize
-        tokenized = self.tokenizer(sentence, return_tensors='pt')
+        tokenized = self.tokenizer(sentence, max_length=512, truncation=True, return_tensors='pt')
         
         # run through berty
         with torch.no_grad():
